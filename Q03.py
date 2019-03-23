@@ -22,7 +22,7 @@ def arquivos_diretorio(diretorio):
         for arquivo in os.listdir(os.getcwd()):
 
             try:
-                if os.path.isfile(str(arquivo)):
+                if os.path.isfile(arquivo):
                     arquivos.append(arquivo)
                     total_ocupado.append(os.stat(arquivo).st_size)
 
