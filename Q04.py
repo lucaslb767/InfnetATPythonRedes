@@ -12,14 +12,19 @@ Resultado na tela:
 aid moB
 '''
 
-texto = open('Q04.txt', 'r')
+import os
+if os.path.isfile('Q04.txt'):
+    texto = open('Q04.txt', 'r')
 
-linhas = texto.readlines()
+    linhas = texto.readlines()
+    print(linhas)
+    for n in range(len(linhas)-1,-1,-1):
 
-for n in range(len(linhas)-1,-1,-1):
+        if '\\n' in linhas[n]:
+            linhas[n].replace('\\n', '')
 
-    if '\\n' in linhas[n]:
-        linhas[n].replace('\\n', '')
+        print(linhas[n][::-1])
 
-    print(linhas[n][::-1])
+else:
+    print('Crie um arquivo chamado "Q04.txt" com algum texto dentro')
 

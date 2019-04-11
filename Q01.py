@@ -17,7 +17,7 @@ try:
 except Exception as e:
     print(f'Ao tentar capturar algum processo, o seguinte erro ocorreu: {e}')
 
-print('LISTA PROCESSOS')
+print('PID PROCESSOS')
 pprint.pprint(lista_process)
 mem_virtual = psutil.virtual_memory()
 mem_percent = mem_virtual.used / mem_virtual.total

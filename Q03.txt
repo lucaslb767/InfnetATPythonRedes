@@ -1,0 +1,19 @@
+
+O arquivo Q03.py tem tamanho de 2285 bytes
+O arquivo Q05.py tem tamanho de 1947 bytes
+O arquivo Q08_multiprocessing.py tem tamanho de 1420 bytes
+O arquivo Q07_server.py tem tamanho de 1322 bytes
+O arquivo Q06_server.py tem tamanho de 1299 bytes
+O arquivo Q07_client.py tem tamanho de 1130 bytes
+O arquivo Q08_sequencial.py tem tamanho de 1073 bytes
+O arquivo Q08_multithreading.py tem tamanho de 1039 bytes
+O arquivo Q03.txt tem tamanho de 854 bytes
+O arquivo Q01.py tem tamanho de 851 bytes
+O arquivo Q09.py tem tamanho de 644 bytes
+O arquivo Q04.py tem tamanho de 594 bytes
+O arquivo Q06_client.py tem tamanho de 572 bytes
+O arquivo Q02.py tem tamanho de 349 bytes
+O arquivo Q05b.txt tem tamanho de 30 bytes
+O arquivo Q05a.txt tem tamanho de 29 bytes
+O arquivo Q04.txt tem tamanho de 18 bytes
+O arquivo Q02.txt tem tamanho de 5 bytes

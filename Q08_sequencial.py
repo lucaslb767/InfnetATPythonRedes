@@ -41,5 +41,5 @@ tempo_inicial = time.time()
 fatorial_lista(fatorial,a,b)
 print('Vetor b',len(b))
 tempo_final = time.time()
-print(f'O tempo total foi de: {tempo_final - tempo_inicial}')
+print(f'O tempo total de sequencial foi de: {tempo_final - tempo_inicial}')
 

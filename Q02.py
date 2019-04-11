@@ -7,4 +7,4 @@ import subprocess
 
 nome_do_arquivo = input('Digite o nome do arquivo e sua extensão (arquivo.txt) ')
 
-subprocess.Popen(['notepad', 'Q02.txt'])
+subprocess.Popen(['notepad', nome_do_arquivo])

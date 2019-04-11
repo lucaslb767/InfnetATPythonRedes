@@ -45,7 +45,7 @@ def arquivos_diretorio(diretorio):
                 print(e)
 
     dic_organizado = dict(zip(arquivos, total_ocupado))
-    pprint.pprint(dic_organizado)
+
 
     total_ocupado_sorted = sorted(total_ocupado, reverse=True)
 
@@ -56,7 +56,8 @@ def arquivos_diretorio(diretorio):
             if size == tamanho:
                 pares_finais.append([arquivo_dic, size])
 
-    print(pares_finais)
+    print('Arquivos Organizados em Ordem descrescente')
+    pprint.pprint(pares_finais)
 
     texto = open('Q03.txt','w')
 
@@ -66,7 +67,7 @@ def arquivos_diretorio(diretorio):
 
 
 dir = input('Digite o path desejado ou deixe em branco para utilizar o diretorio onde se encontra: ')
-print(dir)
+
 if os.path.exists(dir) or dir == '':
     arquivos_diretorio(dir)
 

@@ -13,7 +13,7 @@ def fatorial_lista(funcao, vetor_a, vetor_b):
         vetor_b.append(funcao(n))
 
 a =[]
-n = 10000000
+n = 5000
 b = []
 for i in range(0, n ):
     a.append(random.randint(2,10))
@@ -36,6 +36,6 @@ t1.join()
 t2.join()
 t3.join()
 
-print('vetor b', b)
+print('vetor b', len(b))
 tempo_final = time.time()
-print(f'O tempo total foi de: {tempo_final - tempo_inicial}')
+print(f'O tempo total de multithreading foi de: {tempo_final - tempo_inicial}')
